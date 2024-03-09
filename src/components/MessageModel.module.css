@@ -1,0 +1,16 @@
+.container {
+  margin: 10% 35%;
+}
+
+.title {
+  text-align: center;
+}
+
+.msgTime {
+  font-size: 11px;
+}
+
+.body {
+  max-height: 400px;
+  overflow: auto;
+}

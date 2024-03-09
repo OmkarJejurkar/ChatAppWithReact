@@ -1,0 +1,15 @@
+.option1 {
+  height: 30px;
+  width: 40px;
+  background: white;
+  border-radius: 5px;
+  border: transparent;
+}
+
+.option2 {
+  height: 30px;
+  width: 40px;
+  background: white;
+  border: transparent;
+  border-radius: 5px;
+}

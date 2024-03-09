@@ -1,0 +1,19 @@
+.signUpForm {
+  background: -webkit-linear-gradient(
+    to right,
+    #ee7724,
+    #5856ef,
+    #dd3675,
+    #b44593
+  );
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+  width: 476px;
+  margin: 0% 30%;
+  border-radius: 20px;
+}
+
+.btn {
+  margin: 20px 10px;
+}

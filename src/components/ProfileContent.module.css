@@ -1,0 +1,10 @@
+.container {
+  border: 1px solid white;
+  margin-top: 15%;
+  margin-left: 30%;
+}
+
+.myCard {
+  width: 18rem;
+  height: 20rem;
+}

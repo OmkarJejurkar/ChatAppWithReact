@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  background: linear-gradient(to right, #adeaed, #5ebbed, #6070d9, #4945b4);
+}
+
+.innerContainer {
+  width: 100%;
+}
