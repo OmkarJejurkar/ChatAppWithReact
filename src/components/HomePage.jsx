@@ -55,12 +55,14 @@ function HomePage(props) {
       <div className={styles.innerContainer}>
         <Header></Header>
         {/* <ProfileContent></ProfileContent> */}
-        <MessageContent
-          submitForm={fetchSearchedUser}
-          searchedUserList={searchedUserList}
-          loginState={props.loginState}
-          msgArrived={props.msgArrived}
-        ></MessageContent>
+        <div className={styles.contentContainer}>
+          <MessageContent
+            submitForm={fetchSearchedUser}
+            searchedUserList={searchedUserList}
+            loginState={props.loginState}
+            msgArrived={props.msgArrived}
+          ></MessageContent>
+        </div>
       </div>
     </div>
   );

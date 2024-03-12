@@ -6,3 +6,7 @@
 .innerContainer {
   width: 100%;
 }
+
+.contentContainer {
+  display: flex;
+}

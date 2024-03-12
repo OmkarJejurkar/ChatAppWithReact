@@ -11,6 +11,7 @@
 }
 
 .body {
-  max-height: 400px;
+  max-height: 550px;
+  min-height: 550px;
   overflow: auto;
 }

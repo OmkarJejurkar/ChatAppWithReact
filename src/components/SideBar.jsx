@@ -4,7 +4,7 @@ function SideBar(props) {
   return (
     <div className={styles.sideBar}>
       <div
-        className="d-flex flex-column flex-shrink-0 p-3 bg-light"
+        className="d-flex flex-column flex-shrink-0 p-3 bg-dark"
         style={{ width: "280px", height: "704px" }}
       >
         <a
@@ -14,7 +14,7 @@ function SideBar(props) {
           <svg className="bi me-2" width="40" height="32">
             <use xlinkHref="#bootstrap"></use>
           </svg>
-          <span className="fs-4">
+          <span className="fs-4 text-white">
             {props.loginState}
             <FcApproval />
           </span>
